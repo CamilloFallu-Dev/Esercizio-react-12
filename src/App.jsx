@@ -4,7 +4,7 @@ import Todo from "./Component/Todo";
 function App() {
   return (
     <>
-      {/* <List /> */}
+      <List />
       <Todo />
     </>
   );
