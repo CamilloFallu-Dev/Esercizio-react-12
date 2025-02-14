@@ -18,8 +18,8 @@ function Todo() {
     }
   };
   // rimuovere tutti i todo (non sono riuscito)
-  const handleRemoveTodo = () => {
-    setTodos([]);
+  const handleRemoveTodo = (index) => {
+    setTodos(todos.filter((_, i) => i !== index));
   };
 
   //resettare la lista dei todo
